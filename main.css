@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: cursive;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*****END OF CSS RESET*****/
+
+
+.header {
+  display: block;
+   height: 50px;
+  width: auto;
+  min-width: 300px;  
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#F0E56A, #D15131);
+
+  
+}
+
+.header p{
+  text-align: center;
+  font-size: 40px;
+}
+
+.main {
+ background-image: url("file:///C:/Users/eolulei/Desktop/Thinkful/Shopping-List/fruit.jpg");
+  min-height: 750px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+
+  
+}
+.firstrow{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+
+
+}
+
+a{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+ form{
+  display: inline-block;
+  margin: 0 auto;
+ }
+
+ input{
+  width: 250px;
+
+ }
+
+ .rembutton{
+  margin-left: 600px;
+ }
+
+ .firstrow p{
+   font-size: 20px;
+   display: inline-block;
+ }
+
+.fruits {
+
+font-size: 30px;
+color: #FC1212;
+}
+ 
+ li{
+  text-decoration: none;
+  text-align: center;
+}
+
+li:hover{
+  cursor: pointer;
+}
